@@ -1,25 +1,43 @@
 import img1 from "./img1.png"
 import "./login.css"
 import {Link} from 'react-router-dom'
+import React, {useState} from 'react';
 
 function Login(){
+
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');
+
+    function loginUsuario(){
+        alert('login....')
+    }
+
+    function alterarEmail(event){
+        setEmail(event.target.value);
+    }
+
+    function alterarSenha(event){
+        setSenha(event.target.value);
+    }
+
     return<>
     <div className="d-flex align-itens-center text-center form-container">
-        <form action="test_login.php" method="POST" className="form-signin">
+        <form className="form-signin">
             <img src={img1} alt="" />
             <h1 className="h3 mb-3 fw-normal">Login</h1>
-            
+            <h1 className="h3 mb-3 fw-normal">{email}-{senha}</h1>
+
             <div className="form-floating">
-                <input type="email" className="form-control" id="floatingInput" placeholder="E-mail"/>
+                <input onChange={alterarEmail} type="email" className="form-control" id="floatingInput"/>
                 <label>E-mail</label>
             </div>
 
             <div className="form-floating">
-                <input type="password" className="form-control" id="floatingPassword" placeholder="Senha"/>
+                <input onChange={alterarSenha} type="password" className="form-control" id="floatingPassword"/>
                 <label>Senha</label>
             </div>
 
-            <button className="w-100 btn btn-lg btn-primary" type="button">Acessar</button>
+            <button className="w-100 btn btn-lg btn-primary mt-2" type="button">Acessar</button>
             <div className="login-links mt-5">
                 <Link to="/RecuperarSenha" className="mx-2" href="">Esqueci minha senha</Link>
                 <Link to="/login/Register"  className="mx-2" href="">Criar uma Conta</Link>
