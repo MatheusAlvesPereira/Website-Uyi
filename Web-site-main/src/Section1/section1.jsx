@@ -12,7 +12,7 @@ function Section1(){
                         <div className="card-body">
                             <h5 className="card-title">React</h5>
                             <p className="card-text">React permite que os desenvolvedores criem aplicativos web ​​ou interfaces de usuário complexas integrando um pequeno e isolado fragmento de código, o famoso componente </p>
-                            <a href='https://www.digitalhouse.com/br/blog/o-que-e-react-programacao' target="_blank" className="btn-section1 btn btn-primary" role="button">Saiba Mais</a>
+                            <a href='https://www.digitalhouse.com/br/blog/o-que-e-react-programacao' target="_blank" className="btn btn-primary" role="button">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -22,7 +22,7 @@ function Section1(){
                         <div className="card-body">
                             <h5 className="card-title">Javascript</h5>
                             <p className="card-text">JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web que podem ser feitas a partir do css e html.</p>
-                            <a href='https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript' target="_blank" className="btn-section1 btn btn-primary" role="button">Saiba Mais</a>
+                            <a href='https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript' target="_blank" className="btn btn-primary" role="button">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ function Section1(){
                         <div className="card-body">
                             <h5 className="card-title">Html</h5>
                             <p className="card-text">Sigla para HyperText Markup Language — Linguagem de Marcação de Hipertexto —, o HTML é o componente base da web.</p>
-                            <a href='https://www.totvs.com/blog/developers/o-que-e-html/' target="_blank" className="btn-section1 btn btn-primary" role="button">Saiba Mais</a>
+                            <a href='https://www.totvs.com/blog/developers/o-que-e-html/' target="_blank" className="btn btn-primary" role="button">Saiba Mais</a>
                         </div>
                     </div>
                 </div>

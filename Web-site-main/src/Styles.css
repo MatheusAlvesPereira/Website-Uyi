@@ -67,7 +67,9 @@ body{
     height: 30vw;
 }
 
-#img1-section1,#img2-section1,#img3-section1{
+#img1-section1,
+#img2-section1,
+#img3-section1{
     width: 10vw;
     height: 10vw;
 }
@@ -76,13 +78,16 @@ body{
     height: 25vw;
 }
 
-.card-text{
-    font-size: .7vw;
-    margin-right: 1vw;
+#card1,#card2,#card3{
+    height: 30vw;
 }
 
-.btn-section1{
-    margin-bottom: 1vw;
+.card-body{
+    height: 10vw;
+}
+
+.card-text{
+    font-size: .8vw;
 }
 
 #row-container1{
@@ -138,12 +143,17 @@ body{
     height: var(--banner-height-size-small);
 }
 
-#card-price1,#card-price2,#card-price3{
+#card-price1,
+#card-price2,
+#card-price3{
+    height: 20vw;
     width: 20vw;
 }
 
-#card-container1,#card-container2,#card-container3{
-    height: 25vw;
+#card-container1,
+#card-container2,
+#card-container3{
+    height: 20vw;
 }
 
 .about-container{

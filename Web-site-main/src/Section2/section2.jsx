@@ -3,11 +3,11 @@ function Section2(){
         <div className="container-price" id="Section2">
             <div className="row row-cols-1 row-cols-md-3 mb-3 text-center" id="row-price">
                 <div className="col" id="card-price1">
-                    <div className="card mb-4 rounded-3 shadow-sm" id="card-container1">
+                    <div className="card mb-4 rounded-3 shadow-sm" id="card-container3">
                         <div className="card-header py-3">
                             <h4 className="my-0 fw-normal">Gratuito</h4>
                         </div>
-                        <div className="card-body" id="">
+                        <div className="card-body">
                             <h1 className="card-title pricing-card-title">R$0<small className="text-muted fw-light">/mês</small></h1>
                             <ul className="list-unstyled mt-3 mb-4">
                             <li>Acesso a Plataforma.</li>
