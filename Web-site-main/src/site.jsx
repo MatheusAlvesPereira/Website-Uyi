@@ -1,13 +1,13 @@
 import './Styles.css'
-import Nav from './Banner/nav.jsx' 
-import Banner from './Banner/Banner.jsx'
-import Section1 from "./Section1/section1.jsx"
-import Section2 from "./Section2/section2.jsx"
-import Section3 from './Section3/Section3.jsx'
-import Carousel from "./Carousel/carousel.jsx"
-import Projetos from "./Projetos/projetos.jsx"
-import Footer from "./footer/footer.jsx"
-import About from "./Section4/about.jsx"
+import Nav from "./Components/Banner/nav" 
+import Banner from './Components/Banner/Banner'
+import Section1 from "./Components/Section1/section1"
+import Section2 from "./Components/Section2/section2"
+import Section3 from './Components/Section3/Section3'
+import Carousel from "./Components/Carousel/carousel"
+import Projetos from "./Components/Projetos/projetos"
+import Footer from "./Components/footer/footer"
+import About from "./Components/Section4/about"
 
 export default function Site(){
     return<>
