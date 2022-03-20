@@ -3,50 +3,39 @@ import "./login.css"
 import {Link} from 'react-router-dom'
 import React, {useState} from 'react';
 
-function Login(){
+const Login = () => {
+    const handleSubimit = (event) => {
+        event.preventDefault();
 
-    const [email, setEmail] = useState('');
-    const [senha, setSenha] = useState('');
+        console.log("submit");
+    };
 
-    function loginUsuario(){
-        alert('login....')
-    }
+    return(
+        <div className="d-flex align-itens-center text-center form-container">
+            <form className="form-signin" onSubmit={handleSubimit}>
+                <img src={img1} alt="" />
+                <h1 className="h3 mb-3 fw-normal">Login</h1>
 
-    function alterarEmail(event){
-        setEmail(event.target.value);
-    }
+                <div className="form-floating">
+                    <input type="email" className="form-control" id="floatingInput"/>
+                    <label>E-mail</label>
+                </div>
 
-    function alterarSenha(event){
-        setSenha(event.target.value);
-    }
+                <div className="form-floating">
+                    <input type="password" className="form-control" id="floatingPassword"/>
+                    <label>Senha</label>
+                </div>
 
-    return<>
-    <div className="d-flex align-itens-center text-center form-container">
-        <form className="form-signin">
-            <img src={img1} alt="" />
-            <h1 className="h3 mb-3 fw-normal">Login</h1>
-            <h1 className="h3 mb-3 fw-normal">{email}-{senha}</h1>
+                <button className="w-100 btn btn-lg btn-primary mt-2" type="submit">Acessar</button>
+                <div className="login-links mt-5">
+                    <Link to="/RecuperarSenha" className="mx-2" href="">Esqueci minha senha</Link>
+                    <Link to="/login/Register"  className="mx-2" href="">Criar uma Conta</Link>
+                </div>
 
-            <div className="form-floating">
-                <input onChange={alterarEmail} type="email" className="form-control" id="floatingInput"/>
-                <label>E-mail</label>
-            </div>
-
-            <div className="form-floating">
-                <input onChange={alterarSenha} type="password" className="form-control" id="floatingPassword"/>
-                <label>Senha</label>
-            </div>
-
-            <button className="w-100 btn btn-lg btn-primary mt-2" type="button">Acessar</button>
-            <div className="login-links mt-5">
-                <Link to="/RecuperarSenha" className="mx-2" href="">Esqueci minha senha</Link>
-                <Link to="/login/Register"  className="mx-2" href="">Criar uma Conta</Link>
-            </div>
-
-            <p className="mt-5 mb-3 text-muted">&copy; Desenvolvido por Matheus Alves.</p>
-        </form>
-    </div>
-    </>
-}
+                <p className="mt-5 mb-3 text-muted">&copy; Desenvolvido por Matheus Alves.</p>
+            </form>
+        </div>
+    ) 
+};
 
 export default Login

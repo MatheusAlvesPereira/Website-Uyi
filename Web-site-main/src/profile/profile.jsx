@@ -15,7 +15,7 @@ export default function Profile(){
                 </li>
 
                 <li className="nav-item">
-                    <a href="#about" className='nav-link'>Clientes</a>
+                    <a href="#about" className='nav-link'>Planos</a>
                 </li>
 
                 <li className="nav-item">

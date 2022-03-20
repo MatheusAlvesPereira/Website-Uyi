@@ -11,7 +11,7 @@ function Section1(){
                         <img src={img1} className="card-img-top" alt="..." id="img1-section1"/>
                         <div className="card-body">
                             <h5 className="card-title">React</h5>
-                            <p className="card-text">React permite que os desenvolvedores criem aplicativos web ​​ou interfaces de usuário complexas integrando um pequeno e isolado fragmento de código, o famoso componente </p>
+                            <p className="card-text">React permite que os desenvolvedores criem aplicativos web ​​ou interfaces de usuário complexas integrando um pequeno e isolado fragmento de código.</p>
                             <a href='https://www.digitalhouse.com/br/blog/o-que-e-react-programacao' target="_blank" className="btn btn-primary" role="button">Saiba Mais</a>
                         </div>
                     </div>

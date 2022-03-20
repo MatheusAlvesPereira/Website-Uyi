@@ -83,7 +83,8 @@ body{
 }
 
 .card-body{
-    height: 10vw;
+    height: 11vw;
+    margin-right: 1vw;
 }
 
 .card-text{
@@ -120,15 +121,6 @@ body{
     height: 25vw;
 }
 
-.text-price{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 5vw;
-    position: absolute;
-    padding-top: 5vw; 
-    padding-left: 31vw;
-    color: white;
-}
-
 .container-price{
     width: 100vw;
     height: var(--banner-height-size-small);
@@ -143,17 +135,13 @@ body{
     height: var(--banner-height-size-small);
 }
 
-#card-price1,
-#card-price2,
-#card-price3{
+#card-price1,#card-price2,#card-price3{
     height: 20vw;
     width: 20vw;
 }
 
-#card-container1,
-#card-container2,
-#card-container3{
-    height: 20vw;
+#card-container1,#card-container2,#card-container3{
+    height: 25vw;
 }
 
 .about-container{
@@ -180,5 +168,4 @@ body{
 .name{
     text-align: center;
     margin: 5vw;
-
 }
