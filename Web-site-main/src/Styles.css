@@ -17,7 +17,7 @@ body{
 }
 
 .logo_container{
-    left: 1vw;
+    margin-right: 65vw;
 }
 
 .navbar{
@@ -153,7 +153,6 @@ body{
 }
 
 .footer-container{
-    background-color: #e9ecef;  
     width: 100vw;
     height: 2vw;    
 }
