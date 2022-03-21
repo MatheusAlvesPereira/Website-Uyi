@@ -5,7 +5,7 @@ export default function Profile(){
     return<>
         <nav className="navbar-expand-md d-flex justify-content-start navbar navbar-dark bg-dark fixed-top">
         
-            <div className="logo_container">
+            <div className="logo_container_profile">
                 <img src={logo}/>
             </div>
 

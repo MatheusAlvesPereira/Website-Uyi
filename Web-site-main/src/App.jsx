@@ -1,4 +1,8 @@
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {
+    BrowserRouter, 
+    Route, 
+    Routes 
+} from "react-router-dom";
 import Login from "./Login/Login.jsx"
 import RecuperarSenha from "./RecuprarSenha/RecuprarSenha.jsx"
 import Register from "./Register/register.jsx";

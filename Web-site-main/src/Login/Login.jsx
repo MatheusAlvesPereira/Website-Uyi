@@ -4,10 +4,15 @@ import {Link} from 'react-router-dom'
 import React, {useState} from 'react';
 
 const Login = () => {
+
+    const [email,setEmail] = useState ("");
+    const [password, setPassword] = useState("");
+
+
     const handleSubimit = (event) => {
         event.preventDefault();
 
-        console.log("submit");
+        console.log("submit", {email,password});
     };
 
     return(
@@ -17,12 +22,24 @@ const Login = () => {
                 <h1 className="h3 mb-3 fw-normal">Login</h1>
 
                 <div className="form-floating">
-                    <input type="email" className="form-control" id="floatingInput"/>
+                    <input 
+                     type="email"
+                     className="form-control" 
+                     id="floatingInput"
+                     value={email}
+                     onChange={(event)=> setEmail(event.target.value)}
+                     />
                     <label>E-mail</label>
                 </div>
 
                 <div className="form-floating">
-                    <input type="password" className="form-control" id="floatingPassword"/>
+                    <input 
+                     type="password" 
+                     className="form-control" 
+                     id="floatingPassword"
+                     value={password} 
+                     onChange={(event) => setPassword(event.target.value)} 
+                    />
                     <label>Senha</label>
                 </div>
 
