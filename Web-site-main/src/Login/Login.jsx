@@ -1,18 +1,22 @@
 import img1 from "./img1.png"
 import "./login.css"
 import {Link} from 'react-router-dom'
-import React, {useState} from 'react';
+import React, {useState, useContext} from 'react';
+import { AuthContext } from "../Context/Auth";
 
 const Login = () => {
 
-    const [email,setEmail] = useState ("");
-    const [password, setPassword] = useState("");
+    const {authenticated , login} = useContext(AuthContext);
 
+    const [email, setEmail] = useState(""); 
+    const [password, setPassword] = useState("");
 
     const handleSubimit = (event) => {
         event.preventDefault();
 
         console.log("submit", {email,password});
+
+        login(email,password);
     };
 
     return(
@@ -20,6 +24,7 @@ const Login = () => {
             <form className="form-signin" onSubmit={handleSubimit}>
                 <img src={img1} alt="" />
                 <h1 className="h3 mb-3 fw-normal">Login</h1>
+                <p>{String(authenticated)}</p>
 
                 <div className="form-floating">
                     <input 
