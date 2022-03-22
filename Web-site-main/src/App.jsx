@@ -1,3 +1,4 @@
+import React, {useContext} from "react";
 import {
     BrowserRouter as Router, 
     Route, 
@@ -10,9 +11,28 @@ import RecuperarSenha from "./RecuprarSenha/RecuprarSenha.jsx"
 import Register from "./Register/register.jsx";
 import Site from "./site.jsx"
 import Profile from "./profile/profile.jsx"
-import {AuthProvider} from "./Context/Auth.jsx"
+import { AuthProvider, AuthContext } from "./Context/Auth.jsx"
 
 const App = () => {    
+
+    const Private = ({children}) =>{
+        const {authenticated , loading} = useContext(AuthContext);
+
+
+        if(loading){
+            return<div className="carregando"><h1>loading....</h1></div>
+        }
+
+
+        if(!authenticated){
+            return <Navigate to="/login" />;
+        }
+
+        else{
+            return children;
+        }
+    };
+
     return(
     <Router>
         <AuthProvider>
@@ -21,7 +41,7 @@ const App = () => {
                 <Route exact path='/login' element={<Login/>}/>
                 <Route exact path='/login/Register' element={<Register/>}/>
                 <Route exact path='/RecuperarSenha' element={<RecuperarSenha/>}/>
-                <Route exact path='/login/Profile' element={<Profile/>}/>            
+                <Route exact path='/login/Profile' element={<Private><Profile/></Private>}/>            
             </Routes>
         </AuthProvider>    
     </Router>
