@@ -10,7 +10,7 @@ function Banner(){
                 <p className="text_banner">Somos A UYi empresa de Tecnologia que presta serviços em diversas áreas em Ti.
                 Fazemos o seu site, fornecemos ferramentas para criação de vídeos, banners, flayers e diversos meios de
                 comunicação. Business Analysis Inteligence para Sites de grande porte, ou Micro empresas .
-                <a href="#Section2" className="btn btn-primary mx-2" role="button">Veja</a>
+                <a href="#Section2" className="btn btn-primary mx-2" role="button">veja</a>
                 </p>
             </div>
         </section>
