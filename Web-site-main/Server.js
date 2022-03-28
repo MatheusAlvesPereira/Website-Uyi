@@ -3,8 +3,8 @@ const app = express();
 
 app.get('/Api', (req, res) => {
     return res.json([
-        {name : teste},
-        {user: userteste}
+        { user: "teste"},
+        { password: "testepassword"}    
     ])
 })  
 
