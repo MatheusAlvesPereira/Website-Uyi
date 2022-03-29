@@ -2,12 +2,20 @@ import logo from "./logo.png"
 
 function Nav(){
   return <>
-      <nav className="navbar-expand-md d-flex justify-content-end navbar navbar-dark bg-dark fixed-top">
-        
-        <div className="logo_container">
-           <img src={logo}/>      
-        </div>
+    <nav className="navbar-expand-md d-flex justify-content-end navbar navbar-dark bg-dark fixed-top">
+      <a href="#" className="nav-bar-brand">
+        <img src={logo}/>
+      </a>
 
+      <button type="button" data-toggle="collapse" data-target="#navbarNav" 
+      class="navbar-toggler" 
+      aria-bs-controls="navbarNav"
+      aria-bs-expanded="false"
+      aria-label="Toggle navigation">
+        Menu
+      </button>
+
+      <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
               <a href="#" className="nav-link">Home</a>
@@ -29,7 +37,8 @@ function Nav(){
               <a href="/login/Register" className='nav-link'>Cadastre-se</a>
           </li>
         </ul>
-      </nav>
+      </div>
+    </nav>
   </>
 }
               
