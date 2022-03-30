@@ -51,7 +51,7 @@ const Login = () => {
                 <button className="w-100 btn btn-lg btn-primary mt-2" type="submit">Acessar</button>
                 <div className="login-links mt-5">
                     <Link to="/RecuperarSenha" className="mx-2" href="">Esqueci minha senha</Link>
-                    <Link to="/login/Register"  className="mx-2" href="">Criar uma Conta</Link>
+                    <Link to="/Register"  className="mx-2" href="">Criar uma Conta</Link>
                 </div>
 
                 <p className="mt-5 mb-3 text-muted">&copy; Desenvolvido por Matheus Alves.</p>

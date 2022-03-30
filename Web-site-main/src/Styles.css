@@ -20,7 +20,11 @@ body{
     font-size: 20px;
 }
 
-#Banner img{
+#Banner{
+    position: relative;
+}
+
+.img{
     width: 100vw;     
     position: absolute;  
 }
