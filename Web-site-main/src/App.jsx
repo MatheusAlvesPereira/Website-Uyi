@@ -41,7 +41,7 @@ const App = () => {
                 <Route exact path='/login' element={<Login/>}/>
                 <Route exact path='/Register' element={<Register/>}/>
                 <Route exact path='/RecuperarSenha' element={<RecuperarSenha/>}/>
-                <Route exact path='/login/Profile' element={<Private><Profile/></Private>}/>            
+                <Route exact path='/login/Profile' element={<Private><Profile/></Private>}/>               
             </Routes>
         </AuthProvider>    
     </Router>
