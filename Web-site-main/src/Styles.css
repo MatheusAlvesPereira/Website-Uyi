@@ -138,6 +138,7 @@ body{
 #card-price1,#card-price2,#card-price3{
     height: 20vw;
     width: 20vw;
+    
 }
 
 #card-container1,#card-container2,#card-container3{
@@ -168,3 +169,4 @@ body{
     text-align: center;
     margin: 5vw;
 }
+

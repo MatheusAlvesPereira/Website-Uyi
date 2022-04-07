@@ -14,7 +14,7 @@ export default function RecuperarSenha(){
                     <label for="floatingInput">E-mail</label>
                 </div>
 
-                <button className="w-100 btn btn-lg btn-primary btn_form" type="submit">Enviar</button>
+                <button className="w-100 btn btn-lg btn-primary btn_form mt-2" type="submit">Enviar</button>
                 <div className="login-links mt-5">
                     <Link to="/login" className="mx-2" href="">Já tenho uma conta.</Link>
                 </div>
