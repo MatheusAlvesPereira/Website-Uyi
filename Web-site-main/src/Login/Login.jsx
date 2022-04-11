@@ -1,11 +1,16 @@
 import img1 from "./img1.png"
 import "./login.css"
 import {Link} from 'react-router-dom'
+import axios from "axios";
+
+const api = axios.create({
+    baseURL:'http://localhost/Site/Projetos/phpServer/Api.php'
+})
 
 const Login = () => {
     return(
         <div className="d-flex align-itens-center text-center form-container">
-            <form className="form-signin">
+            <form action="#" className="form-signin">
                 <img src={img1} alt="" />
                 <h1 className="h3 mb-3 fw-normal">Login</h1>
 
@@ -36,7 +41,7 @@ const Login = () => {
                 <p className="mt-5 mb-3 text-muted">&copy; Desenvolvido por Matheus Alves.</p>
             </form>
         </div>
-    ) 
+    )
 };
 
 export default Login
