@@ -64,7 +64,7 @@ body{
 .section1_container{
     background-color: #e9ecef;
     width: 100vw;
-    height: 30vw;
+    height: 35vw;
 }
 
 #img1-section1,
@@ -78,17 +78,26 @@ body{
     height: 25vw;
 }
 
-#card1,#card2,#card3{
-    height: 30vw;
+.card-body_section1{
+    height: 25vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: red;
 }
 
 .card-body{
-    height: 11vw;
-    margin-right: 1vw;
+    height: 20vh;
+    border-style: solid;
+    border-color: red;
 }
 
 .card-text{
-    font-size: .8vw;
+    font-size: 1.7vh;
+}
+
+.card-title{
+    font-size: 1.2vw;
 }
 
 #row-container1{
