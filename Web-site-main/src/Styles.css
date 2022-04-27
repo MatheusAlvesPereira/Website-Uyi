@@ -16,8 +16,19 @@ body{
     --color-bg: #e9ecef;
 }
 
+.navbar-brand{
+    padding-left: 2vw;
+}
+
 .navbar{
     font-size: 20px;
+}
+
+.navbar-collapse.collapse { 
+    padding-left: 0; 
+    padding-right: 0; 
+    margin: 0; 
+    width: 100% 
 }
 
 #Banner{
@@ -179,3 +190,9 @@ body{
     margin: 5vw;
 }
 
+@media(max-width: 1250px){
+    .card{
+        width: 100%;
+        background-color: blue;
+    }
+}
