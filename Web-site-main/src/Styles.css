@@ -11,6 +11,7 @@ body{
 }
 
 :root {
+    --cardtech-height-size: 20vw;
     --banner-height-size: 40vw;
     --banner-height-size-small: 35vw;
     --color-bg: #e9ecef;
@@ -45,11 +46,6 @@ body{
     display: block;
     height: var(--banner-height-size);
 }
-
-#row-container-section{
-    width: 100%;
-    padding-left: 10vw;
-}
   
 #texto_h1{
     font-family: 'Shippori Antique B1', sans-serif;
@@ -76,7 +72,27 @@ body{
 .section1_container{
     background-color: #e9ecef;
     width: 100%;
-    height: 35vw;
+    height: 25vw;
+}
+
+#row-container-section{
+    width: 100%;
+    height: 20vw;
+    margin-top: auto;
+    margin-left: 2vw;
+}
+
+.col-container{
+    padding-top: 2vh;
+    margin-left: 1vw;
+    width: 30vw;
+    height: auto;
+    background-color: red;
+}
+
+.card_tech{
+    height: 320px;
+    background-color: green;
 }
 
 #img1-section1,
@@ -86,26 +102,27 @@ body{
     height: 10vw;
 }
 
-.row-container1{
-    height: 25vw;
-}
-
 .card-body_section1{
-    height: 25vh;
+    align-items: center;
     margin-left: 20px;
     margin-right: 20px;
     border-style: solid;
-    border-color: rebeccapurple;
+    background-color: rgb(142, 97, 184);
+}
+
+.carousel_section{
+    margin-top: auto;
 }
 
 .card-body{
     height: 20vh;
     border-style: solid;
-    border-color: red;
+    border-color: orange;
 }
 
 .card-text{
-    font-size: 1.7vh;
+    text-align: justify;
+    font-size: 15px;
 }
 
 .card-title{
@@ -122,12 +139,6 @@ body{
     height: var(--banner-height-size-small);
     background: rgb(229,234,240);
     background: linear-gradient(90deg, rgba(229,234,240,1) 0%, rgba(233,236,239,1) 100%);
-}
-
-.col-container{
-    padding-top: 5vw;
-    width: 25vw;
-    height: 25vw;
 }
 
 .container-price{
@@ -180,17 +191,59 @@ body{
     margin: 5vw;
 }
 
+@media(max-width:1470px){
+
+    .section1_container{
+        height: 400px;
+    }
+
+    #row-container-section{
+        background-color: aqua;
+    }
+    
+    .card-text{
+        text-align: justify;
+        font-size: 14px;
+    }
+}
 
 @media(max-width:1250px){
     .card,.card-body{
         background-color: yellow;
-        width: 24vw;
-        height: 30vh;
+    }
+}
+
+@media(max-width:1000px){
+
+    .container-1{
+        width: 100%;
+        height: 50vh;
     }
 
-    .card-body_section1{
+    .img{
+        position: relative;
+    }
+
+    .section1_container{
+        height: 1100px;
+    }
+
+    #row-container-section{
+        display: block;
+    }
+
+    .col-container{
+        width: 90vw;
+        height: 35vh;
+        background-color: black;
+    }
+
+    #img1-section1,
+    #img2-section1,
+    #img3-section1{
         width: 20vw;
         height: 20vw;
+        margin-left: 40%;
     }
 }
 
@@ -198,10 +251,6 @@ body{
     .card,.card-body{
         width: 100%;
         background-color: blue;
-        display: block;
-    }
-
-    #row-container-section{
         display: block;
     }
 }
