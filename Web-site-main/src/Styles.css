@@ -213,29 +213,35 @@ body{
     }
 }
 
-@media(max-width:1000px){
+@media(max-width:768px){
+    .section1_container{
+        height: 750px;
+    }
 
     .container-1{
         width: 100%;
         height: 50vh;
     }
 
-    .img{
-        position: relative;
-    }
-
-    .section1_container{
-        height: 1100px;
-    }
-
     #row-container-section{
-        display: block;
+        width: 90vw;
+        margin-left: 2vw;
+        background-color: yellowgreen;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        grid-auto-columns: minmax(100px,auto);        
     }
 
     .col-container{
-        width: 90vw;
-        height: 35vh;
+        width: 45vw;
+        height: 50vh;
         background-color: black;
+    }
+
+    .card,.card-body{
+        background-color: orangered;
+        height: 45vh;
     }
 
     #img1-section1,
@@ -243,8 +249,15 @@ body{
     #img3-section1{
         width: 20vw;
         height: 20vw;
-        margin-left: 40%;
+        margin-left: 25%;
     }
+
+    .card-body_section1{
+        height: 20vh;
+        width: 90%;
+    }
+
+
 }
 
 @media(max-width: 600px){
