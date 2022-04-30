@@ -215,7 +215,7 @@ body{
 
 @media(max-width:768px){
     .section1_container{
-        height: 750px;
+        height: 850px;
     }
 
     .container-1{
@@ -250,6 +250,25 @@ body{
         width: 20vw;
         height: 20vw;
         margin-left: 25%;
+    }
+
+    .card-text,
+    .card-title{
+        font-size: 10px;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .card-title{
+        font-size: medium;
+    }
+
+    .button-card{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        margin-left: 1vw;
+        margin-right: 1vw;
     }
 
     .card-body_section1{
