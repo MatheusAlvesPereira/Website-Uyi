@@ -37,11 +37,12 @@ body{
 }
 
 .img{
-    width: 100vw;     
+    width: 100%;
+    height: 850px; 
     position: absolute;  
 }
 
-#container-1 .img{
+#container-1{
     position: relative;
     display: block;
     height: var(--banner-height-size);
@@ -72,7 +73,7 @@ body{
 .section1_container{
     background-color: #e9ecef;
     width: 100%;
-    height: 25vw;
+    height: 60vh;
 }
 
 #row-container-section{
@@ -196,10 +197,6 @@ body{
     .section1_container{
         height: 400px;
     }
-
-    #row-container-section{
-        background-color: aqua;
-    }
     
     .card-text{
         text-align: justify;
@@ -208,14 +205,60 @@ body{
 }
 
 @media(max-width:1250px){
+
+    .img{
+        width: 100%;
+        height: 85vh; 
+        position: absolute;  
+    }
+
+    .section1_container{
+        width: 100%;
+        height: 55vh;
+    }
+
     .card,.card-body{
         background-color: yellow;
     }
 }
 
 @media(max-width:768px){
+
+    #banner{
+        height: 35vh;
+    }
+
+    .container-1{
+        background-color: red;
+        height: auto;
+    }
+
+    .img{
+        width: 100%;
+        height: 500px; 
+        position: absolute;  
+    }
+
+    .text-container{
+        width: 100vw;
+        height: 45vh;
+    }
+
+    #texto_h1{
+        font-size: 4vw;    
+    }
+    
+    .text_banner{
+        margin-top: 20px;
+        font-size: 2vw;
+    }
+
+    #button_banner{
+        margin-bottom: 0;
+    }
+
     .section1_container{
-        height: 850px;
+        height: 700px;
     }
 
     .container-1{
@@ -226,7 +269,6 @@ body{
     #row-container-section{
         width: 90vw;
         margin-left: 2vw;
-        background-color: yellowgreen;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 10px;
@@ -235,21 +277,21 @@ body{
 
     .col-container{
         width: 45vw;
-        height: 50vh;
+        height: 45vh;
         background-color: black;
     }
 
     .card,.card-body{
         background-color: orangered;
-        height: 45vh;
+        height: 40vh;
     }
 
     #img1-section1,
     #img2-section1,
     #img3-section1{
-        width: 20vw;
-        height: 20vw;
-        margin-left: 25%;
+        width: 15vw;
+        height: 15vw;
+        margin-left: 30%;
     }
 
     .card-text,
@@ -257,6 +299,7 @@ body{
         font-size: 10px;
         margin-left: 1vw;
         margin-right: 1vw;
+        margin-bottom: 1vw;
     }
 
     .card-title{
@@ -275,8 +318,6 @@ body{
         height: 20vh;
         width: 90%;
     }
-
-
 }
 
 @media(max-width: 600px){
