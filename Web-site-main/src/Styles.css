@@ -321,9 +321,50 @@ body{
 }
 
 @media(max-width: 600px){
+
+    .section1_container{
+        height: 1000px;
+    }
+
+    #row-container-section{
+        width: 90vw;
+        margin-left: 10vw;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        grid-auto-columns: minmax(100px,auto);
+    }
+
+    .col-container{
+        width: 75vw;
+    }
+
+    #img1-section1,
+    #img2-section1,
+    #img3-section1{
+        margin-left: 25vw;
+    }
+
     .card,.card-body{
-        width: 100%;
+        width: 70vw;
         background-color: blue;
         display: block;
     }
+
+    .card-body_section1{
+        height: 25vh;
+    }
+
+    .card-title{
+        margin-left: 2vw;
+        font-size: 18px;
+    }
+
+    .card-text{
+        font-size: 13px;
+        margin-left: 2vw;
+        margin-right: 1vw;
+        margin-bottom: 1vw;
+    }
+
 }
