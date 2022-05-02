@@ -1,0 +1,38 @@
+#section_project{
+    background-color: #e9ecef;
+    width: 100%;
+    height: 75vh;
+}
+
+
+.project_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    width: 100vw;
+
+}
+
+.project{
+    margin-top: 5vw;
+    background-color: blue;
+    width: 20vw;
+    height: 55vh;
+}
+
+.card-project{
+    width: 100%;
+}
+
+.body-project{
+    width: auto;
+    border-color: red;
+}
+
+.card-title-project{
+    font-size: 20px;
+}
+
+.card-text-project{
+    font-size: 12px;
+}
