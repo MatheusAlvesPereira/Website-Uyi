@@ -1,9 +1,14 @@
 #section_project{
     background-color: #e9ecef;
-    width: 100%;
+    width: 100vw;
     height: 75vh;
 }
 
+.project-bg{
+    margin-left: 130px;
+    height: 75vh;
+    width: 1500px;
+}
 
 .project_container{
     display: grid;
@@ -22,10 +27,12 @@
 
 .card-project{
     width: 100%;
+    height: 50vh;
 }
 
 .body-project{
     width: auto;
+    height: 25vh;
     border-color: red;
 }
 
@@ -34,5 +41,29 @@
 }
 
 .card-text-project{
-    font-size: 12px;
+    font-size: 13px;
+}
+
+@media (max-width:1390){
+    .card-title-project{
+        font-size: 18px;
+    }
+    
+    .card-text-project{
+        font-size: 11px;
+    }
+
+    .card-body{
+        background-color: yellowgreen;
+    }
+
+}
+
+@media (max-width:768px){
+
+    
+
+    .project{
+        background-color: black;
+    }
 }
