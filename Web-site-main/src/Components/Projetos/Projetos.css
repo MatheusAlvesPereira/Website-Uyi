@@ -61,7 +61,13 @@
 
 @media (max-width:768px){
 
+    .card-title-project{
+        font-size: 16px;
+    }
     
+    .card-text-project{
+        font-size: 11px;
+    }
 
     .project{
         background-color: black;
