@@ -45,21 +45,57 @@
 }
 
 @media (max-width:1390){
-    .card-title-project{
-        font-size: 18px;
+    .project{
+        background-color: black;
     }
-    
-    .card-text-project{
-        font-size: 11px;
+}
+
+@media (max-width:1250px){
+
+    #section_project{
+        height: 1000px;
+    }
+
+    .project-bg{
+        width: 70vw;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1px;
+        grid-auto-columns: minmax(100px,auto);
+    }
+
+    #row-project{
+        width: 80vw;
+    }
+
+    .project{
+        width: 35vw;
     }
 
     .card-body{
-        background-color: yellowgreen;
+        background-color: aquamarine;
     }
-
 }
 
 @media (max-width:768px){
+
+    #section_project{
+        height: 250vh;
+    }
+
+    .project-bg{
+        width: 30vw;
+        margin-left: 25vw;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        grid-auto-columns: minmax(100px,auto);
+    }
+
+    .project{  
+        width: 50vw;
+        background-color: black;
+    }
 
     .card-title-project{
         font-size: 16px;
@@ -69,7 +105,8 @@
         font-size: 11px;
     }
 
-    .project{
-        background-color: black;
+    .card-body{
+        background-color: aqua;
     }
+
 }

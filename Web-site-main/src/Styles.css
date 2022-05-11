@@ -259,7 +259,7 @@ body{
     }
 
     .section1_container{
-        height: 700px;
+        height: 750px;
     }
 
     .container-1{
@@ -324,7 +324,7 @@ body{
 @media(max-width: 600px){
 
     .section1_container{
-        height: 1000px;
+        height: 1100px;
     }
 
     #row-container-section{
