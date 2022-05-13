@@ -1,0 +1,27 @@
+.card-price{
+    height: 50vh;
+}
+
+.body-price{
+    height: 15vh;
+    width: auto;
+}
+
+.card-title-price{
+    font-size: 2rem;
+}
+
+@media (max-width: 1250px){
+
+    #row-price{
+        width: 60vw;
+    }
+
+    .container-price{
+        height: 70vh;
+    }
+
+    .card-title-price{
+        font-size: 1.7rem;
+    }
+}
