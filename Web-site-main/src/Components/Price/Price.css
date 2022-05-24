@@ -14,14 +14,35 @@
 @media (max-width: 1250px){
 
     #row-price{
-        width: 60vw;
+        width: 85vw;
+        margin-left: 10vw;
+        background-color: burlywood;
     }
 
+    #card-price1,
+    #card-price2,
+    #card-price3{
+        margin-right: 7vw;
+        background-color: blueviolet;
+    }
+
+    #price-body1,
+    #price-body2,
+    #price-body3{
+        height: 50vh;
+        width: 25vw;
+        
+        background-color: brown;
+    }
+    
     .container-price{
         height: 70vh;
     }
 
     .card-title-price{
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
+
+
+
 }
