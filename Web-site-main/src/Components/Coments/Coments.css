@@ -1,0 +1,16 @@
+.img-coments{
+    padding-left: 13vw;
+    padding-top: 2vw;
+}
+
+@media (max-width:1200px){
+    .img-coments{
+        padding-left: 11vw;
+    }
+}
+
+@media (max-width:768px){
+    .img-coments{
+        padding-left: 42vw;
+    }
+}

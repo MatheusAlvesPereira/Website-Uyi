@@ -164,10 +164,6 @@ body{
     
 }
 
-#card-container1,#card-container2,#card-container3{
-    height: 25vw;
-}
-
 .about-container{
     height: var(--banner-height-size-small);
     text-align: center;
@@ -322,7 +318,6 @@ body{
 }
 
 @media(max-width: 600px){
-
     .section1_container{
         height: 1100px;
     }
