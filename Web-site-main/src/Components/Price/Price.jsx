@@ -1,3 +1,4 @@
+import React from "react"
 import "../Price/Price.css"
 
 function Price(){

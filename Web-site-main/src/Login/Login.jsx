@@ -1,11 +1,6 @@
 import img1 from "./img1.png"
 import "./login.css"
 import {Link} from 'react-router-dom'
-import axios from "axios";
-
-const api = axios.create({
-    baseURL:'http://localhost/Site/Projetos/phpServer/Api.php'
-})
 
 const Login = () => {
     return(

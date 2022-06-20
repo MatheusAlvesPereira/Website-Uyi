@@ -1,3 +1,4 @@
+import React from 'react'
 import './Styles.css'
 import Nav from "./Components/Banner/nav" 
 import Banner from './Components/Banner/Banner'
@@ -9,7 +10,7 @@ import Projetos from "./Components/Projetos/projetos"
 import Footer from "./Components/footer/footer"
 import About from "./Components/Section4/about"
 
-export default function Site(){
+export default function App(){
     return<>
     <Nav />
     <Banner />

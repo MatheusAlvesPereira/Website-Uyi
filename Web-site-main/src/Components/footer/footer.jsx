@@ -1,3 +1,4 @@
+import React from "react"
 import img1 from "./github.png";
 import img2 from "./pinterest.png";
 
