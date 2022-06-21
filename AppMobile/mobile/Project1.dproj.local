@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2022/04/04 14:37:34.000.870,=C:\Users\mathe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/04/04 14:40:07.000.813,C:\Users\mathe\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mathe\Desktop\Projetos\AppMobile\mobile\Unit1.pas</Transaction>
-    <Transaction>2022/04/04 14:40:07.000.813,C:\Users\mathe\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\mathe\Desktop\Projetos\AppMobile\mobile\Unit1.fmx</Transaction>
-    <Transaction>2022/04/04 18:27:08.000.117,C:\Users\mathe\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mathe\Desktop\Projetos\AppMobile\mobile\Project1.dproj</Transaction>
-  </Transactions>
-</BorlandProject>
