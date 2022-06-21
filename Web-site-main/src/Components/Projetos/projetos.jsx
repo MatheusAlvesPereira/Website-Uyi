@@ -8,8 +8,8 @@ import img4 from "./img4.jpg"
 export default function Projetos(){
     return<>
     <div className="project-bg">
-        <div className="row row-cols-1 row-cols-md-3 g-4" id="row-container">
-            <div className="col col-container">
+        <div className="project__card">
+            <div className="tech__card">
                 <div className="card">
                     <img src={img1} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -19,7 +19,7 @@ export default function Projetos(){
                     </div>
                 </div>
             </div>
-            <div className="col col-container">
+            <div className="tech__card">
                 <div className="card">
                     <img src={img2} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -29,7 +29,7 @@ export default function Projetos(){
                     </div>
                 </div>
             </div>
-            <div className="col col-container">
+            <div className="tech__card">
                 <div className="card">
                     <img src={img3} className="card-img-top" alt="..."/>
                     <div className="card-body">

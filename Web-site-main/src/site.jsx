@@ -12,13 +12,13 @@ import About from "./Components/Section4/about"
 
 export default function App(){
     return<>
-    <Nav />
-    <Banner />
-    <Section1  />
-    <Carousel />
-    <Projetos />
-    <Section2 />
-    <Section3 />
+    <Nav/>
+    <Banner/>
+    <Section1/>
+    <Carousel/>
+    <Projetos/>
+    <Section2/>
+    <Section3/>
     <About/>
     <Footer />
     </>
