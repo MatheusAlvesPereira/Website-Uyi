@@ -1,7 +1,7 @@
 import React from "react"
 export default function About(){
     return<>
-        <section>    
+        <section className="about">    
             <div className="about-container" id="about">
                 <div className="about-conteudo">
                     <h2 className="title-about">O que é a UYI</h2>

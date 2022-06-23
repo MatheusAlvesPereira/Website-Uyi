@@ -2,7 +2,7 @@ import React from "react"
 
 function Section2(){
     return<>
-        <section>
+        <section className="card">
             <div className="container-price" id="Section2">
                 <div className="row row-cols-1 row-cols-md-3 mb-3 text-center" id="row-price">
                     <div className="col" id="card-price1">

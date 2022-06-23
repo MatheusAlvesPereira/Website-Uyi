@@ -5,7 +5,7 @@ import img3 from "./img3.png";
 
 function Section1(){
     return<>
-        <section className="tech">
+        <section className="project">
             <div className="section1_container">
                 <div className="row row-cols-1 row-cols-sm-3 g-4" id="row-container-section">
                     <div className="col col-container">

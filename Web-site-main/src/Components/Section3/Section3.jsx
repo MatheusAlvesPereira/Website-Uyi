@@ -3,7 +3,7 @@ import img1 from "./img1.png"
 
 function Section3(){
     return<>
-        <section>
+        <section className="coments">
             <div className="bg_section3">
                 <div className="row">
                     
