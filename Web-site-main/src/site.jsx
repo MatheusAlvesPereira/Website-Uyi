@@ -2,23 +2,23 @@ import React from 'react'
 import './Styles.css'
 import Nav from "./Components/Banner/nav" 
 import Banner from './Components/Banner/Banner'
-import Section1 from "./Components/Section1/section1"
-import Section2 from "./Components/Section2/section2"
-import Section3 from './Components/Section3/Section3'
+import Technology from './Components/technology/technology'
+import Card from './Components/Card/card'
+import Coments from './Components/Coments/Coments'
 import Carousel from "./Components/Carousel/carousel"
 import Projetos from "./Components/Projetos/projetos"
 import Footer from "./Components/footer/footer"
-import About from "./Components/Section4/about"
+import About from "./Components/about/about"
 
 export default function App(){
     return<>
     <Nav/>
     <Banner/>
-    <Section1/>
+    <Technology/>
     <Carousel/>
     <Projetos/>
-    <Section2/>
-    <Section3/>
+    <Card/>
+    <Coments/>
     <About/>
     <Footer />
     </>

@@ -1,14 +1,15 @@
 import React from "react"
 import img1 from "./img1.png"
+import "../Coments/Coments.css"
 
-function Section3(){
+export default function Coments(){
     return<>
-        <section className="coments">
+        <section id="section_coments">
             <div className="bg_section3">
                 <div className="row">
                     
                     <div className="col-md-4">
-                        <img className= "img-1" src={img1} alt=""/>
+                        <img className="img-coments" src={img1} alt=""/>
 
                         <p className="name">Rafael Silva</p>
                         <p className="text">Comprei o plano Empresarial. Gostei muito
@@ -18,7 +19,7 @@ function Section3(){
                     </div>
 
                     <div className="col-md-4">
-                        <img className= "img-2" src={img1} alt=""/>
+                        <img className="img-coments" src={img1} alt=""/>
 
                         <p className="name">Carla Sales</p>
                         <p className="text">Comecei com o plano Gratuito e consegui desenvolver meu primeiro site
@@ -27,7 +28,7 @@ function Section3(){
                     </div>
 
                     <div className="col-md-4">
-                        <img className= "img-3" src={img1} alt=""/>
+                        <img className="img-coments" src={img1} alt=""/>
 
                         <p className="name">Rodrigo Raia</p>
                         <p className="text">gostei muito do plano Gratuito, em breve vou assinar o plano Analista 
@@ -39,5 +40,3 @@ function Section3(){
         </section>
     </>
 }
-
-export default Section3

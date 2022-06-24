@@ -1,6 +1,6 @@
 import React from "react"
 
-function Section2(){
+export default function Card(){
     return<>
         <section className="card">
             <div className="container-price" id="Section2">
@@ -70,5 +70,3 @@ function Section2(){
         </section>
     </>
 }
-
-export default Section2
