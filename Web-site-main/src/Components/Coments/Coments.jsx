@@ -4,7 +4,7 @@ import "../Coments/Coments.css"
 
 export default function Coments(){
     return<>
-        <section id="section_coments">
+        <section id="coments">
             <div className="bg_section3">
                 <div className="row">
                     
