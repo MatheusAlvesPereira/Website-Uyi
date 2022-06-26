@@ -1,9 +1,10 @@
 import React from "react"
 import img from "./img.jpg"
+import "./banner.css"
 
 function Banner(){
     return<>
-        <section id="Banner">
+        <section className="banner">
             <div className="container-1"id="container-1">
                 <img src={img} className="img" alt=""/>
 

@@ -2,6 +2,7 @@ import React from "react"
 import img1 from "./img1.png";
 import img2 from "./img2.png";
 import img3 from "./img3.png";
+import "./technology.css"
 
 export default function technology(){
     return<>

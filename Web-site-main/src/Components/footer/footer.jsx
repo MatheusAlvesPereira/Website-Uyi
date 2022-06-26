@@ -4,7 +4,7 @@ import img2 from "./pinterest.png";
 
 function Footer(){
     return<>
-        <div className="footer-container">
+        <div className="footer">
             <div className="row">
                 <div className="col-lg-11">
                     <p className="dev">Desenvolvido por Matheus Alves.</p>
