@@ -1,5 +1,5 @@
 import React from 'react'
-import './Styles.css'
+import './styles/main.css'
 import Nav from "./Components/Banner/nav" 
 import Banner from './Components/Banner/Banner'
 import Technology from './Components/technology/technology'
@@ -20,6 +20,6 @@ export default function App(){
     <Card/>
     <Coments/>
     <About/>
-    <Footer />
+    <Footer/>
     </>
 }
