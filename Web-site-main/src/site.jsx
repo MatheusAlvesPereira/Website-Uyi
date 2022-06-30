@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/main.css'
+import './styles/Sass/main.scss'
 import Nav from "./Components/Banner/nav" 
 import Banner from './Components/Banner/Banner'
 import Technology from './Components/technology/technology'
