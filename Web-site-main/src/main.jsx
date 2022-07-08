@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from '../src/site'
+import App from './site'
 
 ReactDOM.render(<React.StrictMode>
   <App/>
