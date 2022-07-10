@@ -1,7 +1,7 @@
 import React from "react"
 import logo from "./logo.png"
 
-function Nav(){
+export default function Nav(){
   return <>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <a className="navbar-brand" href="#"><img src={logo}/></a>
@@ -29,4 +29,3 @@ function Nav(){
   </>
 }
               
-export default Nav

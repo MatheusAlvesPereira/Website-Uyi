@@ -1,3 +1,10 @@
+.img_banner{
+    margin-left: 50vw;
+    width: 50em;
+    height: 25em;
+}
+
 .banner{
-    height: auto;
+    width: 100%;
+    height: 100vw;
 }
