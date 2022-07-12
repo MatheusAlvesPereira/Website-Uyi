@@ -32,13 +32,6 @@ body{
     width: 100% 
 }
 
-
-#container-1{
-    position: relative;
-    display: block;
-    height: var(--banner-height-size);
-}
-  
 #texto_h1{
     font-family: 'Shippori Antique B1', sans-serif;
     margin-left: 10px;
