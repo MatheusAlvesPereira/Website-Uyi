@@ -4,10 +4,10 @@ import "./banner.css"
 function Banner(){
     return<>
         <section className="banner">
-            <div className="img-banner"></div>
-            <div className="wrapper">
-                <label className="title">Escolha o Seu Destino.... <br/>O Visionário, A Technologia.</label>
-                <p className="text_banner">Somos A UYi empresa de Tecnologia que presta serviços em diversas áreas em Ti.
+            <div className="banner__img"></div>
+            <div className="banner__wrapper">
+                <label className="banner__title">Escolha o Seu Destino.... <br/>O Visionário, A Technologia.</label>
+                <p className="banner__text">Somos A UYi empresa de Tecnologia que presta serviços em diversas áreas em Ti.
                 Fazemos o seu site, fornecemos ferramentas para criação de vídeos, banners, flayers e diversos meios de
                 comunicação. Business Analysis Inteligence para Sites de grande porte, ou Micro empresas .
                 </p>

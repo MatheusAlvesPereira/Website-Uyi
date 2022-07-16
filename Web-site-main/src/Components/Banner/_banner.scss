@@ -1,8 +1,3 @@
-body {
-    background-color: wheat;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 a{
     font-size: 1.5em;
     text-decoration: none;
@@ -10,24 +5,35 @@ a{
 
 .banner{
     width: 100%;
-    height: 100vw;
+    height: 250vw;
 }
 
-.img-banner{
+.banner__img{
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background: url("../Banner/img.jpg");
     position: absolute;
     background-size: cover;
-    background-position-x: 10%;
-    z-index: -1;
+    background-position-x: 2%;
+    z-index: -1;    
 }
 
-.title{
+.banner__title{
+    font-size: 1.5em;
     margin: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin-top: 10em;
+    margin-top: 2em;
+    position: relative;
+}
+
+.banner__text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    margin: 1.5em;
     position: relative;
 }
 
