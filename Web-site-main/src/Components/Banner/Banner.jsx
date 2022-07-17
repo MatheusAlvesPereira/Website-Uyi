@@ -6,7 +6,7 @@ function Banner(){
         <section className="banner">
             <div className="banner__img"></div>
             <div className="banner__wrapper">
-                <label className="banner__title">Escolha o Seu Destino.... <br/>O Visionário, A Technologia.</label>
+                <label className="banner__title">Tecnology in your Buiness</label>
                 <p className="banner__text">Somos A UYi empresa de Tecnologia que presta serviços em diversas áreas em Ti.
                 Fazemos o seu site, fornecemos ferramentas para criação de vídeos, banners, flayers e diversos meios de
                 comunicação. Business Analysis Inteligence para Sites de grande porte, ou Micro empresas .
