@@ -1,7 +1,7 @@
 import React from "react"
 import "./banner.css"
 
-function Banner(){
+export default function Banner(){
     return<>
         <section className="banner">
             <div className="banner__img"></div>
@@ -19,5 +19,3 @@ function Banner(){
         </section>
     </>
 }
-
-export default Banner

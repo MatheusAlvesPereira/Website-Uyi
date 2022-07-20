@@ -2,7 +2,7 @@ import React from "react"
 import img1 from "./github.png";
 import img2 from "./pinterest.png";
 
-function Footer(){
+export default function Footer(){
     return<>
         <div className="footer">
             <div className="row">
@@ -18,6 +18,3 @@ function Footer(){
         </div>
     </>
 }   
-
-
-export default Footer

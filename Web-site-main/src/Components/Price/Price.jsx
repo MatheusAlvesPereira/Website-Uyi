@@ -1,7 +1,7 @@
 import React from "react"
 import "../Price/Price.css"
 
-function Price(){
+export default function Price(){
     return<>
         <section id="section_price">
             <div className="container-price" id="Section2">
@@ -72,5 +72,3 @@ function Price(){
         </section>
     </>
 }
-
-export default Price
