@@ -14,9 +14,9 @@ export default function App(){
     return<>
     <Nav/>
     <Banner/>
-    <Technology/>
-    <Carousel/>
     <Projetos/>
+    <Carousel/>
+    <Technology/>
     <Card/>
     <Coments/>
     <About/>
