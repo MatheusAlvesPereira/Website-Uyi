@@ -3,8 +3,7 @@ import "./banner.css"
 
 export default function Banner(){
     return<>
-        <section 
-        className="banner">
+        <section className="banner">
             <div className="banner__img"></div>
             <div className="banner__wrapper">
                 <label className="banner__title">Tecnology in your Buiness</label>

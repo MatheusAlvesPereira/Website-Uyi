@@ -8,6 +8,35 @@ a{
     height: 40em;
 }
 
+.nav{
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+    width: 50%;
+    height: 100vh;
+    text-transform: uppercase;
+
+    .nav__list{
+        list-style-type: none;
+        padding: 0;
+        margin-top: 5em;
+
+        .nav__link{
+            width: 100%;
+            color: black;
+            font-size: 1em;
+            display: block;
+            padding: .75em 2em;
+
+            &:hover{
+                background-color: rgb(98, 98, 98);
+            }
+        }
+    }
+}
+
 .nav__brand{
     margin-left: 0.5em;
 }
@@ -21,7 +50,7 @@ a{
     position: absolute;
     background-size: cover;
     background-position-x: 50%;
-    z-index: -1;    
+    z-index: -1;
 }
 
 .banner__title{
@@ -43,9 +72,6 @@ a{
     position: relative;
 }
 
-.nav{
-    display: none;
-}
 
 .header{
     display: flex;
