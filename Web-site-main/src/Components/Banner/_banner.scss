@@ -109,6 +109,20 @@ a{
 }
 
 @media only screen and (min-width: 920px){
+    
+    .banner__title{
+        font-size: 4em;
+        margin-left: 1em;
+        margin-bottom: .5em;
+    }
+
+    .banner__text{
+        margin-left: 3em;
+        margin-top: 0;
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+
     .nav__menu{
         display: none;
     }
@@ -131,6 +145,12 @@ a{
 
             .nav__link{
                 color: white;
+                
+                &:hover{
+                    border-radius: .5em;
+                    background-color: rgba(255, 255, 255, 0.271);
+                    transition: 1.5s;
+                }
             }
         }
     }
