@@ -28,7 +28,7 @@ a{
 
         .nav__link{
             width: 100%;
-            color: black;
+            color: rgb(0, 0, 0);
             font-size: 1em;
             display: block;
             padding: .75em 2em;
@@ -40,14 +40,18 @@ a{
     }
 
     .close{
-        margin-left: 35vw;
         margin-top: .5em;
         width: 2.5em;
+        margin-left: 25em;
     }
 }
 
 .nav__brand{
-    margin-left: 0.5em;
+    margin-left: 1em;
+}
+
+.nav__menu{
+    margin-right: 1em;
 }
 
 .banner__img{
@@ -95,5 +99,39 @@ a{
 
     path {
         fill: white;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        margin: 1.5em 5em;
+    }
+}
+
+@media only screen and (min-width: 920px){
+    .nav__menu{
+        display: none;
+    }
+
+    .nav{
+        transform: translateX(0);
+        position: unset;
+        display: block;
+        width: auto;
+        height: auto;
+        background: none;
+
+        .close{
+            display: none;
+        }
+    
+        .nav__list{
+            display: flex;
+            margin: 0;
+
+            .nav__link{
+                color: white;
+            }
+        }
     }
 }

@@ -11,7 +11,7 @@ export default function Projetos(){
             <div className="project__card">
                 <div className="project__content">
                     <div className="project__body">
-                        <h5 className="project__title">Tecnologias que Utilizadmos:</h5>
+                        <h5 className="project__title">Tecnologias que Utilizamos:</h5>
                         <p className="project__text">Utilizamos css,Javascript,html e alguns frameworks como: boostrap.</p>
                     </div>
                     <img src={img1} className="card-img-top" alt="..."/>
