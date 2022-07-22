@@ -89,12 +89,6 @@ body{
     background: linear-gradient(90deg, rgba(229,234,240,1) 0%, rgba(233,236,239,1) 100%);
 }
 
-.container-price{
-    width: 100vw;
-    height: var(--banner-height-size-small);
-    background: rgb(2,62,125);
-    background: radial-gradient(circle, rgba(2,62,125,1) 0%, rgba(0,24,69,1) 52%);
-}
 
 #row-price{
     background-color: black;
