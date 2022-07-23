@@ -8,4 +8,11 @@
         height: 11em;
         margin-bottom: 1em;
     }
+
+    @media only screen and (min-width:920px){
+        .project__content{
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+        }
+    }
 }
