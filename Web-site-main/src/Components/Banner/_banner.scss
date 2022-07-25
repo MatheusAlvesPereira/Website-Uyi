@@ -64,6 +64,7 @@ a{
     background-size: cover;
     background-position-x: 50%;
     z-index: -1;
+    animation: introload 2s forwards;
 }
 
 .banner__title{
@@ -158,8 +159,21 @@ a{
 }
 
 @media only screen and (min-width: 1200px){
-    .banner__wrapper{
+    .banner{
         width: 1200px;
         margin: 0 auto;
+    }
+
+    .project{
+        gap: 0;
+    }
+}
+
+@keyframes introload{
+    from{
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 }
