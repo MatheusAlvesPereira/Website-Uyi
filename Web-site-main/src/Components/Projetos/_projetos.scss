@@ -13,6 +13,11 @@
         .project__content{
             display: grid;
             grid-template-columns: repeat(2, auto);
+            margin-bottom: 8em;
+
+            .project__img{
+                width: 25em;
+            }
         }
     }
 }

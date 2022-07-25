@@ -14,28 +14,28 @@ export default function Projetos(){
                         <h5 className="project__title">Tecnologias que Utilizamos:</h5>
                         <p className="project__text">Utilizamos css,Javascript,html e alguns frameworks como: boostrap.</p>
                     </div>
-                    <img src={img1} className="card-img-top" alt="..."/>
+                    <img src={img1} className="project__img" alt="..."/>
                 </div>
                 <div className="project__content">
                     <div className="project__body">
                         <h5 className="project__title">Nossos Programadores</h5>
                         <p className="project__text">Nossas programadores são especialistas em Javascript, css e backend para banco de dados.</p>
                     </div>
-                    <img src={img2} className="card-img-top" alt="..."/>
+                    <img src={img2} className="project__img" alt="..."/>
                 </div>
                 <div className="project__content">
                     <div className="project__body">
                         <h5 className="project__title">Designers</h5>
                         <p className="project__text">São responsáveis pelo nosso front-end executam um Ui excelente para negócios.</p>
                     </div>
-                    <img src={img3} className="card-img-top" alt="..."/>
+                    <img src={img3} className="project__img" alt="..."/>
                 </div>
                 <div className="project__content">
                     <div className="project__body">
                         <h5 className="project__title">Analistas</h5>
                         <p className="project__text">Toda nossa base de negócios, com o Buiness Analsys conseguimos um marketing objetivo.</p>
                     </div>
-                    <img src={img4} className="card-img-top" alt="..."/>
+                    <img src={img4} className="project__img" alt="..."/>
                 </div>
             </div>
         </section>
