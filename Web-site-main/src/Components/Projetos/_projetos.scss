@@ -1,5 +1,5 @@
 .project{
-    margin-top: 5em;
+    margin-top: 1em;
     margin-left: 1em;
 
     img{
@@ -16,6 +16,11 @@
             margin-bottom: 8em;
 
             .project__img{
+                width: 25em;
+            }
+
+            .project__body{
+                text-align: right;
                 width: 25em;
             }
         }
