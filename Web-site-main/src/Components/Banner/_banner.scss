@@ -76,6 +76,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     position: relative;
+    animation: movedown 1s ease-in-out forwards;
 }
 
 .banner__text{
@@ -84,6 +85,7 @@ a{
     color: white;
     margin-left: 2em;
     position: relative;
+    animation: movedown 1s ease-in-out forwards;
 }
 
 
@@ -175,5 +177,15 @@ a{
     }
     to{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+@keyframes movedown{
+    from{
+        transform: translateY(-30px);
+    }
+    to{
+     transform: translateY(0);
+     opacity: 1;
     }
 }
