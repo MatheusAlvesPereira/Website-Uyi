@@ -1,13 +1,1 @@
-@import '/Web-site-main/src/Components/Banner/banner';
-
-@import '/Web-site-main/src/Components/Projetos/projetos';
-
-@keyframes introLoad{
-    from{
-        clip-path: polygon(20% 0%, 80% 0%, 100% 0, 0 0);
-    }
-
-    to{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    }
-}
+@import './glob';
