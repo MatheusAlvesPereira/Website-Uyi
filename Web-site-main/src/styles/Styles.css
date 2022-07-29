@@ -94,7 +94,7 @@ body{
     background-color: black;
     margin-left: 20vw;
     padding-top: 5vw;
-    width: 100vw;
+    width: 30em;
     height: var(--banner-height-size-small);
 }
 

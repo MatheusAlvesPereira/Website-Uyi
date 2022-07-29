@@ -1,3 +1,5 @@
-@import '/Web-site-main/src/Components/Banner/banner';
+@import './components/banner';
 
-@import '/Web-site-main/src/Components/Projetos/projetos';
+@import './components/projetos';
+
+@import './components/Price';
