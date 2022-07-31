@@ -3,9 +3,14 @@ import logo from "./logo.png"
 
 export default function Nav(){
 
-  const menu = document.getElementById('menu');
-  const close = document.getElementById('close');
-  const nav = document.getElementById('nav');
+  const menu = document.querySelector('.menu');
+  const close = document.querySelector('.close')
+  const nav = document.querySelector('nav');
+
+  menu.addEventListener('click', ()=>{
+    nav.classList.add('open-nav')
+  })
+
 
   return <>
     <header className="header">
