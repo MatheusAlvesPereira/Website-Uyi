@@ -3,16 +3,6 @@ import logo from "./logo.png"
 
 export default function Nav(){
 
-   console.log('test');
-
-  var menuBar = document.querySelector('.menu');
-
-  menuBar.addEventListener('click', ()=>{
-    let menumobile = querySelector('.nav');
-    menumobile.classlist.add('show-menu');
-  });
-
-
   return <>
     <header className="header">
       <a className="nav__brand" href="#"><img src={logo}/></a>
