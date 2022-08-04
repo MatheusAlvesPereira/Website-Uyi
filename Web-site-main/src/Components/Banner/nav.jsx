@@ -3,6 +3,17 @@ import logo from "./logo.png"
 
 export default function Nav(){
 
+  const navtoggle = () => {
+    const menu = document.querySelector('.close');
+    const nav = document.querySelector('.nav');
+
+    menu.addEventListener('click', ()=>{
+      nav.classList.add('nav-active');
+    });
+
+    navtoggle();
+  }
+
   return <>
     <header className="header">
       <a className="nav__brand" href="#"><img src={logo}/></a>
@@ -36,7 +47,7 @@ export default function Nav(){
         <image id="image0_242_9" width="120" height="120" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAAAXNSR0IArs4c6QAAAqVJREFUeF7t2kFWAyEABNFwcvXk4yp75lUCNbxynQ5Nf1npePVz9ALj6Nt1uVfAh/8SBBzw4Qscfr1ecMCHL3D49XrBAR++wOHX6wUHfPgCh1+vFxzw4Qscfr1ecMCHL3D49aZf8HVdl3mLMcb0Xcz3+HS36VEC/vT0a74v4DU7bzsl4G3Trzk44DU7bztlGnhbww5GCwSM5vOHA/YboYYBo/n84YD9RqhhwGg+fzhgvxFqOA18XdcPOunL4THG35ePeOTX3wHujw0PJA74gWh3Kgd8Z60HfjbgB6LdqXwH+PfOF6/+7BhD3W/1Hu/zpoF3FexctkDAbD99OmA9ESsYMNtPnw5YT8QKBsz206cD1hOxgtPA/V80G3pXOuBdyy86N+BFQ+86JuBdyy86N+BFQ+86Zhp4V8HOZQsEzPbTpwPWE7GCAbP99OmA9USsYMBsP306YD0RKxgw20+fDlhPxAoGzPbTpwPWE7GCAbP99OmA9USsYMBsP306YD0RKxgw20+fDlhPxAoGzPbTpwPWE7GCAbP99OmA9USsYMBsP306YD0RKxgw20+fDlhPxAoGzPbTpwPWE7GCAbP99OmA9USsYMBsP306YD0RKxgw20+fDlhPxAoGzPbTpwPWE7GCAbP99OmA9USsYMBsP306YD0RKxgw20+fDlhPxAoGzPbTpwPWE7GCAbP99OmA9USsYMBsP306YD0RKxgw20+fDlhPxAoGzPbTpwPWE7GCAbP99OmA9USsYMBsP306YD0RKxgw20+fDlhPxAoGzPbTpwPWE7GCAbP99OmA9USsYMBsP306YD0RKxgw20+fDlhPxAoGzPbTpwPWE7GCAbP99OmA9USsYMBsP306YD0RKxgw20+fDlhPxAoGzPbTpwPWE7GC/+M1QHl+Pw/UAAAAAElFTkSuQmCC"/>
         </defs>
       </svg>
-    </header>
+    </header>   
   </>
 }
               
