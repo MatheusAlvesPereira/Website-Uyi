@@ -3,16 +3,7 @@ import logo from "./logo.png"
 
 export default function Nav(){
 
-  const navtoggle = () => {
-    const menu = document.querySelector('.close');
-    const nav = document.querySelector('.nav');
-
-    menu.addEventListener('click', ()=>{
-      nav.classList.add('nav-active');
-    });
-
-    navtoggle();
-  }
+  console.log('hello world');
 
   return <>
     <header className="header">
