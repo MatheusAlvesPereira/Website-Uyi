@@ -2,9 +2,6 @@ import React from "react"
 import logo from "./logo.png"
 
 export default function Nav(){
-
-  console.log('hello world');
-
   return <>
     <header className="header">
       <a className="nav__brand" href="#"><img src={logo}/></a>
