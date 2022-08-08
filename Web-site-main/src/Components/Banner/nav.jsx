@@ -1,14 +1,16 @@
-import React from "react"
+import React, { useState } from "react"
 import logo from "./logo.png"
-import { useRef } from "react";
 
 export default function Nav(){
 
-  const navRef = useRef();
+  const [active, setActive] = useState("nav__menu");
 
-  const shownavbar = () => {
-    navRef.current.classList.toggle('nav_active');
-  }
+  const navtoggle = () => {
+    console.log('clickou')
+    active === "nav__menu"
+      ? setActive("nav__menu nav__active")
+      : setActive("nav__menu");
+  };
 
   return <>
     <header className="header">
@@ -34,7 +36,7 @@ export default function Nav(){
         </ul>
       </nav>
 
-      <svg onClick={shownavbar} id="Menu" className="nav__menu" width="42" height="33" viewBox="0 0 42 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+      <svg onClick={navtoggle} id="Menu" className="nav__menu" width="42" height="33" viewBox="0 0 42 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <rect width="42" height="33" fill="url(#pattern0)"/>
         <defs>
         <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
