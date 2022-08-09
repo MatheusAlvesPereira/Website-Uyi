@@ -9,7 +9,7 @@ export default function Nav(){
     console.log('clickou')
     active === "nav__menu"
       ? setActive("nav__menu nav__active")
-      : setActive("nav__menu");
+      : setActive("nav__active");
   };
 
   return <>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles/Sass/vendors/main.scss'
-import Nav from "./Components/Banner/nav" 
+import Nav from "./Components/Nav/nav" 
 import Banner from './Components/Banner/Banner'
 import Technology from './Components/technology/technology'
 import Card from './Components/Card/card'
