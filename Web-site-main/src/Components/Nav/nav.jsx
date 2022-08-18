@@ -1,6 +1,16 @@
 import React from "react"
 import logo from "./logo.png"
 
+
+const menu = document.querySelector('.menu')
+const close = document.querySelector('.close')
+const nav = document.querySelector('.nav')
+
+menu.addEventListener('click', () =>{
+  console.log('funcionou')
+  nav.classList.add('open-nav')
+})
+
 export default function Nav(){
   return <>
     <header className="header">
