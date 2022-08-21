@@ -1,13 +1,10 @@
-import React from "react"
+import React, { useState } from "react"
 import logo from "./logo.png"
 
-const menu = document.getElementById('nav__menu');
-
-menu.addEventListener('click', () => {
-  console.log('clickou');
-})
-
 export default function Nav(){
+
+  const [onclick, setonclick] = useState;
+
   return <>
     <header className="header">
       <a className="nav__brand" href="#"><img src={logo}/></a>
@@ -32,7 +29,7 @@ export default function Nav(){
         </ul>
       </nav>
 
-      <svg id="nav__menu" className="nav__menu" width="42" height="33" viewBox="0 0 42 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+      <svg onChange={menu} id="nav__menu" className="nav__menu" width="42" height="33" viewBox="0 0 42 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <rect width="42" height="33" fill="url(#pattern0)"/>
         <defs>
         <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
