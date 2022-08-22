@@ -3,7 +3,12 @@ import logo from "./logo.png"
 
 export default function Nav(){
 
-  const [onclick, setonclick] = useState;
+  const [noclick, setOnclick] = useState(false);
+
+  const clicked = () => {
+    setOnclick(!noclick);
+    console.log('works')
+  }
 
   return <>
     <header className="header">
@@ -29,7 +34,7 @@ export default function Nav(){
         </ul>
       </nav>
 
-      <svg onChange={menu} id="nav__menu" className="nav__menu" width="42" height="33" viewBox="0 0 42 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+      <svg onClick={clicked} id="nav__menu" className="nav__menu" width="42" height="33" viewBox="0 0 42 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <rect width="42" height="33" fill="url(#pattern0)"/>
         <defs>
         <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
