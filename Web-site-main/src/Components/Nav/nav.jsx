@@ -37,7 +37,7 @@ export default function Nav(){
       <svg 
         onClick={clicked} 
         id="nav__menu" 
-        className={'${noclick ? "nav__menu" : "" }'} 
+        className={'${noclick ? "nav__menu" : "clicked__menu" }'} 
         width="42" height="33" viewBox="0 0 42 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <rect width="42" height="33" fill="url(#pattern0)"/>
         <defs>
