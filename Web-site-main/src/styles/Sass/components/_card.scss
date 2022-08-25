@@ -1,4 +1,14 @@
-.container-price{
-    background-color: aqua;
-    z-index: 10;
+#row-price{
+    margin-left: 5em;
+    height: 20em;
+    width: 35em;
+}
+
+@media only screen and (min-width:1200px){
+    #row-price{
+        background-color: brown;
+        margin-left: 10;
+        height: 40em;
+        width: 60em;
+    }
 }
