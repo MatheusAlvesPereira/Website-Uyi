@@ -1,11 +1,18 @@
-#row-price{
-    margin-left: 5em;
+#row-price{ 
+    margin-top: 10em;
+    margin-left: 10em;
     height: 20em;
     width: 35em;
 }
 
 @media only screen and (min-width:1200px){
+
+    #Section2{
+        margin-top: 5em;
+    }
+
     #row-price{
+        margin-top: 10em;
         background-color: brown;
         margin-left: 10;
         height: 40em;
