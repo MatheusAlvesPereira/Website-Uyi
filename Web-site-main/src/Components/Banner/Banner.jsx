@@ -6,7 +6,7 @@ export default function Banner(){
         <section className="banner">
             <div className="banner__img"></div>
             <div className="banner__wrapper">
-                <label className="banner__title">Tecnology in your Buiness</label>
+                <label className="banner__title">Tecnology in<br/>your Buiness</label>
                 <p className="banner__text">Employers designer<br/>
                     buiness analysys 
                     back end support.

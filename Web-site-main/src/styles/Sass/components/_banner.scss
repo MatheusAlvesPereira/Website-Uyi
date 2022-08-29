@@ -22,19 +22,18 @@ a{
 }
 
 .banner__title{
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     margin: 1.5em;
     margin-top: 2em;
-    margin-left: 1em;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2em;
     color: white;
     position: relative;
     animation: movedown 1s ease-in-out forwards;
 }
 
 .banner__text{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 1rem;
     color: white;
     margin-left: 2em;
@@ -50,7 +49,7 @@ a{
 
 .banner__arrow{
     margin: 1.5em;
-    margin-top: 10em;
+    margin-top: 5em;
     position: absolute;
     width: 3.5em;
 

@@ -21,16 +21,16 @@ export default function Nav(){
 
         <ul className="nav__list">
           <li className="nav__item">
-            <a className="nav__link" href="#about">Sobre</a>
+            <a className="nav__link" href="#about">About</a>
           </li>
           <li className="nav__item">
-            <a className="nav__link" href="#Section2">Planos</a>
+            <a className="nav__link" href="#Section2">Plans</a>
           </li>
           <li className="nav__item">
             <a className="nav__link" href="/login">Login</a>
           </li>
           <li className="nav__item">
-            <a className="nav__link" href="/Register">Cadastre-se</a>
+            <a className="nav__link" href="/Register">Sign-in</a>
           </li>
         </ul>
       </nav>
