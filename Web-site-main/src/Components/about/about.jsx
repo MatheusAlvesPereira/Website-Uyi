@@ -4,7 +4,7 @@ export default function About(){
         <section className="about">    
             <div className="about-container" id="about">
                 <div className="about-conteudo">
-                    <h2 className="title-about">O que é a UYI</h2>
+                    <h2 className="title-about">O que é a UYI?</h2>
                     <p className="About-text">A empresa fictícia UYI tem o objetivo de prestart
                     serviços em diversas áreas da Tecnologia da Informação, uma delas é 
                     a construção de sites para négocios e e-commerce online, também temos 
