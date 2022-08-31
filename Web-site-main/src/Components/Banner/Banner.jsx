@@ -1,7 +1,10 @@
 import React from "react"
-import "./banner.css"
 
 export default function Banner(){
+
+    let path = document.querySelector('path');
+    let pathlengh = document.querySelector('path')
+
     return<>
         <section className="banner">
             <div className="banner__img"></div>
@@ -17,9 +20,9 @@ export default function Banner(){
                 <path d="M57.3535 81.5261L50.4925 88.8205V0H44.5077V88.8205L37.6465 81.5261L33.4147 86.025L47.5001 101L61.5853 86.025L57.3535 81.5261Z" fill="black"/>
             </svg>  
 
-            <div className="line">  
-                <svg width="224" height="3205" viewBox="0 0 224 3205" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="XMidYMax meet">
-                    <path d="M131.5 0C131.5 378 46.8333 531.5 4.5 561L131.5 645.5L217 561H131.5V3204.5" stroke="#0993F5" stroke-width="5"/>
+            <div className="line">
+                <svg className="line__img" width="317" height="4597" viewBox="0 0 317 4597" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M187.282 0C187.282 542.258 65.7608 762.461 5 804.78L187.282 925.999L310 804.78H187.282V4597" stroke="#0993F5" stroke-width="5"/>
                 </svg>
             </div> 
         </section>
