@@ -5,6 +5,14 @@ export default function Banner(){
     let path = document.querySelector('path');
     let pathlengh = document.querySelector('path')
 
+    path.style.strokeDasharray = pathlengh + ' ' + pathlengh;
+
+    path.style.strokeDashoffset = pathlengh;
+
+    window.addEventListener('scroll', () => {
+        
+    })
+
     return<>
         <section className="banner">
             <div className="banner__img"></div>
