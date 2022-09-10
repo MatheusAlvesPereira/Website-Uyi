@@ -1,20 +1,6 @@
 import React from "react"
 
 export default function Banner(){
-
-    let path = document.querySelector('path');
-    let pathlengh = path.getTotallength();
-
-    path.style.strokeDasharray = pathlengh + ' ' + pathlengh;
-
-    path.style.strokeDashoffset = pathlengh;
-
-    window.addEventListener('scroll', () => {
-        var scrollporcentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-        var drawlength = pathlengh + scrollporcentage;
-        path.style.strokeDashoffset = pathlengh - drawlength;
-    })
-
     return<>
         <section className="banner">
             <div className="banner__img"></div>
@@ -29,12 +15,6 @@ export default function Banner(){
             <svg className="banner__arrow" width="95" height="101" viewBox="0 0 95 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M57.3535 81.5261L50.4925 88.8205V0H44.5077V88.8205L37.6465 81.5261L33.4147 86.025L47.5001 101L61.5853 86.025L57.3535 81.5261Z" fill="black"/>
             </svg>  
-
-            <div className="line">
-                <svg className="line__img" width="317" height="4597" viewBox="0 0 317 4597" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path preserveAspectRatio="xMidYmax meet" d="M187.282 0C187.282 542.258 65.7608 762.461 5 804.78L187.282 925.999L310 804.78H187.282V4597" stroke="#0993F5" stroke-width="5"/>
-                </svg>
-            </div> 
         </section>
     </>
 }
