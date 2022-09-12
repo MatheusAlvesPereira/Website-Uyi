@@ -113,6 +113,13 @@
     border-radius: 0.5em;
 }
 
+.navActive::after{
+    display: none;
+}
+
+.navActive::before{
+    display: flex;
+}
 
 
 

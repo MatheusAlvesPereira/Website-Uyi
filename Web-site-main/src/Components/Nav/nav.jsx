@@ -17,7 +17,7 @@ export default function Nav(){
         <div className="menu"></div>
       </div>
     
-      <nav className={active ? "navActive" : "nav"}>
+      <nav className={active ? "nav" : "navActive"}>
         <ul className="nav__list">
           <li className="nav__item">
             <a className="nav__link" href="#about">About</a>
