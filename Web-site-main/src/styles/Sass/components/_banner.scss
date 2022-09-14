@@ -5,7 +5,7 @@ a{
 
 .banner{
     width: 100%;
-    height: 50em;
+    height: 35em;
 }
 
 .banner__img{
@@ -22,22 +22,30 @@ a{
 }
 
 .banner__title{
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-    margin: 1.5em;
-    margin-top: 2em;
-    margin-left: 2em;
-    color: white;
-    position: relative;
+    position: absolute;
+    width: 547px;
+    height: 218px;
+    top: 180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    color: #FFFFFF;
     animation: movedown 1s ease-in-out forwards;
 }
 
 .banner__text{
-    font-family: 'Roboto Slab', serif;
-    font-size: 1rem;
-    color: white;
-    margin-left: 2em;
-    position: relative;
+    position: absolute;
+    width: 736px;
+    height: 393px;
+    top: 398px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
     animation: movedown 1s ease-in-out forwards;
 }
 
@@ -69,9 +77,20 @@ a{
     body{
         margin: 1.5em 5em;
     }
+
+    .banner__title{
+        margin-left: 1em;
+    }
+
+    .banner__text{
+        font-size: 1.5rem;
+        margin-left: 2.5em;
+        margin-bottom: 0;
+    }
 }
 
 @media only screen and (min-width: 1200px){
+
     .banner{
         width: 1200px;
         margin: 0 auto;

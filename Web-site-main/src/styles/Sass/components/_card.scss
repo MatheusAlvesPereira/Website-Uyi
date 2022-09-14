@@ -13,15 +13,19 @@
 
 @media only screen and (min-width:1200px){
 
+
     #Section2{
         margin-top: 5em;
     }
 
     #row-price{
-        margin-top: 10em;
         background-color: brown;
-        margin-left: 10;
+        margin-top: 0;
         height: 40em;
-        width: 60em;
+        width: 50em;
+    }
+
+    .card-body{
+        height: 20em;
     }
 }
