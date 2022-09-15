@@ -31,6 +31,10 @@ export default function Nav(){
           <li className="nav__item">
             <a className="nav__link" href="/Register">Sign-in</a>
           </li>
+
+          <li className="nav__item">
+            <a className="nav__link" href="/Register">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>   
