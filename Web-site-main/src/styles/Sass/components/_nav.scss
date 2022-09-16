@@ -37,7 +37,11 @@
 }
 
 .nav__brand{
+    position: absolute;
+    width: 42px;
+    height: 36px;
     left: 120px;
+    top: 46px;
 }
 
 .navActive{
@@ -162,19 +166,29 @@
     }
 
     .nav{
+        margin-left: 550px;
         position: unset;
         display: block;
-        width: auto;
-        height: auto;
+        width: 579px;
+        height: 73px;
+
         background: none;
     
         .nav__list{
             display: flex;
             margin: 0;
 
+            .nav__item{
+                width: auto;
+                margin: 0;
+            }
+
             .nav__link{
                 color: white;
-                
+                width: 80px;
+                margin: 0;
+                white-space: nowrap;
+
                 &:hover{
                     color: rgb(185, 185, 185);
                     transition: 1.5s;
