@@ -1,5 +1,16 @@
-.tech{
-    height: 50em;
+@media only screen and (min-width:920px){
+    .technology__content{  
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        margin-bottom: 8em;
+
+        .technology__body{
+            margin-top: 2em;
+            text-align: right;
+            width: 25em;
+        }
+    }
 }
+
 
 
