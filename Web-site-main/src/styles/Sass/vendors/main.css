@@ -1,1 +1,408 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@600&display=swap");
+#row-price {
+  margin-top: 10em;
+  margin-left: 10em;
+  height: 20em;
+  width: 35em;
+}
+
+.card {
+  position: inherit;
+  display: block;
+}
+
+@media only screen and (min-width: 1200px) {
+  #Section2 {
+    margin-top: 5em;
+  }
+  #row-price {
+    background-color: brown;
+    margin-top: 0;
+    height: 40em;
+    width: 50em;
+  }
+  .card-body {
+    height: 20em;
+  }
+}
+@media only screen and (min-width: 920px) {
+  .technology__content {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-bottom: 8em;
+  }
+  .technology__content .technology__body {
+    margin-top: 2em;
+    text-align: right;
+    width: 25em;
+  }
+}
+a {
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.banner {
+  width: 110em;
+  height: 35em;
+}
+
+.banner__img {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 520px;
+  left: 0px;
+  top: 0px;
+  background: url("/Web-site-main/src/Components/Banner/banner.png");
+  position: absolute;
+  background-size: cover;
+  background-position-x: 50%;
+  z-index: -1;
+  -webkit-animation: introload 2s forwards;
+          animation: introload 2s forwards;
+}
+
+.banner__title {
+  position: absolute;
+  width: 547px;
+  height: 218px;
+  top: 170px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  color: #FFFFFF;
+  -webkit-animation: movedown 1s ease-in-out forwards;
+          animation: movedown 1s ease-in-out forwards;
+}
+
+.banner__text {
+  position: absolute;
+  width: 736px;
+  top: 398px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #FFFFFF;
+  -webkit-animation: movedown 1s ease-in-out forwards;
+          animation: movedown 1s ease-in-out forwards;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line__img {
+  z-index: 100;
+  margin-left: 20em;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 1.5em 5em;
+  }
+  .banner__title {
+    margin-left: 1em;
+  }
+  .banner__text {
+    font-size: 1.5rem;
+    margin-left: 2.5em;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .banner {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .project {
+    gap: 0;
+  }
+}
+@-webkit-keyframes introload {
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+@keyframes introload {
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+@-webkit-keyframes movedown {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes movedown {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+  width: 50%;
+  height: 100vh;
+  text-transform: uppercase;
+  display: none;
+}
+.nav .nav__list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1em;
+  margin-bottom: 27em;
+}
+.nav .nav__list .nav__link {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  display: block;
+  padding: 0.75em 2em;
+}
+.nav .nav__list .nav__link:hover {
+  color: whitesmoke;
+}
+.nav .menu__img {
+  margin-top: 0.5em;
+  width: 2.5em;
+  position: fixed;
+  margin-left: 10em;
+}
+
+.nav__brand {
+  position: absolute;
+  width: 42px;
+  height: 36px;
+  left: 120px;
+  top: 46px;
+}
+
+.navActive {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+  width: 50%;
+  height: 100vh;
+  text-transform: uppercase;
+  -webkit-animation: navActive 1.5s;
+          animation: navActive 1.5s;
+}
+.navActive .nav__list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1em;
+  margin-bottom: 27em;
+}
+.navActive .nav__list .nav__link {
+  width: 50%;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  display: block;
+  padding: 0.75em 2em;
+}
+.navActive .nav__list .nav__link:hover {
+  color: whitesmoke;
+}
+
+.nav__active, .nav__menu {
+  cursor: pointer;
+  margin-left: 50em;
+}
+
+.menu {
+  z-index: 111111;
+  top: 1em;
+  left: auto;
+  width: 30px;
+  height: 0.2em;
+  background: white;
+  position: relative;
+  transition: 0.5s;
+  border-radius: 0.5em;
+}
+
+.menu::before {
+  top: -12px;
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 0.2em;
+  background-color: white;
+  transition: 0.5s;
+  border-radius: 0.5em;
+}
+
+.menu::after {
+  top: 12px;
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 0.2em;
+  background-color: white;
+  transition: 0.5s;
+  border-radius: 0.5em;
+}
+
+.nav__menu .menu::before {
+  width: 30px;
+  top: 0;
+  background-color: black;
+  rotate: 225deg;
+}
+
+.nav__menu .menu::after {
+  width: 30px;
+  top: 0;
+  background-color: black;
+  rotate: 135deg;
+}
+
+@-webkit-keyframes navActive {
+  from {
+    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% 0);
+            clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 9% 100%, 0% 50%);
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 9% 100%, 0% 50%);
+  }
+}
+
+@keyframes navActive {
+  from {
+    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% 0);
+            clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%, 100% 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 9% 100%, 0% 50%);
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 9% 100%, 0% 50%);
+  }
+}
+@media only screen and (min-width: 920px) {
+  .banner__title {
+    font-size: 4em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+  }
+  .banner__text {
+    margin-left: 3em;
+    margin-top: 0;
+    font-size: 1.5em;
+    margin-bottom: 0;
+  }
+  #nav__menu {
+    display: none;
+  }
+  .nav__active,
+.nav__menu,
+.navActive {
+    display: none;
+  }
+  .nav {
+    margin-left: 550px;
+    position: unset;
+    display: block;
+    width: 579px;
+    height: 73px;
+    background: none;
+  }
+  .nav .nav__list {
+    display: flex;
+    margin: 0;
+  }
+  .nav .nav__list .nav__item {
+    width: auto;
+    margin: 0;
+  }
+  .nav .nav__list .nav__link {
+    color: white;
+    width: 80px;
+    margin: 0;
+    white-space: nowrap;
+  }
+  .nav .nav__list .nav__link:hover {
+    color: rgb(185, 185, 185);
+    transition: 1.5s;
+  }
+}
+.project {
+  background-color: white;
+  margin-left: 1em;
+}
+.project .project__title {
+  font-family: "Oswald", sans-serif;
+}
+.project img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 11em;
+  margin-bottom: 1em;
+}
+@media only screen and (min-width: 920px) {
+  .project .project__content {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-bottom: 8em;
+  }
+  .project .project__content .project__img {
+    width: 25em;
+    -webkit-animation: project 20s forwards;
+            animation: project 20s forwards;
+  }
+  .project .project__content .project__body {
+    text-align: right;
+    width: 25em;
+  }
+}
+@-webkit-keyframes project {
+  from {
+    -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
+  }
+  to {
+    -webkit-clip-path: circle(70.7% at 50% 50%);
+            clip-path: circle(70.7% at 50% 50%);
+  }
+}
+@keyframes project {
+  from {
+    -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
+  }
+  to {
+    -webkit-clip-path: circle(70.7% at 50% 50%);
+            clip-path: circle(70.7% at 50% 50%);
+  }
+}/*# sourceMappingURL=main.css.map */
