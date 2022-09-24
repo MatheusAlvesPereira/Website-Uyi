@@ -13,15 +13,15 @@
 
 @media only screen and (min-width:1200px){
 
-
-    #Section2{
-        margin-top: 5em;
+    .container-price{
+        display: grid;
+        place-items: center;
     }
 
     #row-price{
         background-color: brown;
         margin-top: 0;
-        height: 40em;
+        height: 25em;
         width: 50em;
     }
 
