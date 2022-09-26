@@ -1,6 +1,6 @@
 import React from "react"
 import img1 from "./github.png";
-import img2 from "./pinterest.png";
+import img2 from "./Figma.png";
 
 export default function Footer(){
     return<>
@@ -12,7 +12,7 @@ export default function Footer(){
 
                 <div className="col">
                     <a href="https://github.com/MatheusAlvesPereira" target="_blank"><img src={img1}/></a>
-                    <a href="https://pin.it/6Z0wa3k" target="_blank"><img src={img2}/></a>
+                    <a href="https://www.figma.com/file/irUs7TAKEdt3DKL8ancpAL/WebSiteDesignUYI?node-id=0%3A1" target="_blank"><img src={img2}/></a>
                 </div>
             </div>
         </div>
