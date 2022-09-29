@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import logo from "./logo.png"
+import {Link} from "react-router-dom";
 
 export default function Nav(){
 
@@ -20,20 +21,33 @@ export default function Nav(){
       <nav className={active ? "nav" : "navActive"}>
         <ul className="nav__list">
           <li className="nav__item">
-            <a className="nav__link" href="#about">About</a>
-          </li>
-          <li className="nav__item">
-            <a className="nav__link" href="#Section2">Plans</a>
-          </li>
-          <li className="nav__item">
-            <a className="nav__link" href="/login">Login</a>
-          </li>
-          <li className="nav__item">
-            <a className="nav__link" href="/Register">Sign-in</a>
+            <Link to="/login">
+              <a className="nav__link">About</a>
+            </Link>
           </li>
 
           <li className="nav__item">
-            <a className="nav__link" href="/Register">Contact</a>
+            <Link to="/login">
+              <a className="nav__link">Plans</a>
+            </Link>
+          </li>
+
+          <li className="nav__item">
+            <Link to="/login">
+              <a className="nav__link">Login</a>
+            </Link>
+          </li>
+
+          <li className="nav__item">
+            <Link to="/login">
+              <a className="nav__link">Sign-In</a>
+            </Link>
+          </li>
+
+          <li className="nav__item">
+            <Link to="/login">
+              <a className="nav__link">Contact</a>
+            </Link>
           </li>
         </ul>
       </nav>
