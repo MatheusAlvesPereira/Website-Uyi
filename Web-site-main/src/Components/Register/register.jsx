@@ -1,3 +1,4 @@
+import React from "react"
 import img1 from "./img1.png"
 import "./register.css"
 import {Link} from 'react-router-dom'

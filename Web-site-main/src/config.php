@@ -1,5 +1,7 @@
 <?php
 
+    echo 'Hello world'
+
     $username = '#';
     $password = '#';
     $dsn = '#';
@@ -12,5 +14,4 @@
         echo 'Connection failed: ' . $e->getMessage();
         exit;
     }
-
 ?>
