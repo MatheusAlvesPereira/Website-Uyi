@@ -143,6 +143,10 @@
 
 @media only screen and (min-width: 920px){
 
+    .href{
+        margin: 0;
+    }
+
     .banner__title{
         font-size: 4em;
         margin-left: 1em;
@@ -185,7 +189,7 @@
             }
 
             .nav__link{
-                font-size: .8em;
+                font-size: 1em;
                 font-family: 'Open Sans', sans-serif;
                 color: white;
                 width: 100px;

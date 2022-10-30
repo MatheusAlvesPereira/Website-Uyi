@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 export default function Register(){
     return(
         <div className="d-flex align-itens-center text-center form-container">
-            <form action="" className="form-signin" method="POST">
+            <form method="POST" action="" className="form-signin">
                 <img src={img1} alt="" />
                 <h1 className="h3 mb-3 fw-normal">Crie Sua Conta</h1>
 

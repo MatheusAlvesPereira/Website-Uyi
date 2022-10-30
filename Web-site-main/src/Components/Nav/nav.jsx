@@ -20,21 +20,20 @@ export default function Nav(){
     
       <nav className={active ? "nav" : "navActive"}>
         <ul className="nav__list">
-          <li className="nav__item">
-            <Link to="/login">
-              <a className="nav__link">About</a>
-            </Link>
-          </li>
 
           <li className="nav__item">
-            <Link to="/login">
-              <a className="nav__link">Plans</a>
-            </Link>
+              <a href="#card__price" className="nav__link">Plans</a>
           </li>
 
           <li className="nav__item">
             <Link to="/login">
               <a className="nav__link">Login</a>
+            </Link>
+          </li>
+
+          <li className="nav__item">
+            <Link to="/login">
+              <a className="nav__link">About</a>
             </Link>
           </li>
 
