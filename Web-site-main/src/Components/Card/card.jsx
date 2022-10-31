@@ -4,6 +4,7 @@ export default function Card(){
     return<>
         <section className="card" id="card__price">
             <div className="container-price">
+            <h4 className="card__text">CONHEÇA NOSSOS PLANOS</h4>
                 <div className="row row-cols-1 row-cols-md-3 mb-3 text-center" id="row-price">
                     <div className="col" id="card-price1">
                         <div className="card mb-4 rounded-3 shadow-sm" id="card-container3">

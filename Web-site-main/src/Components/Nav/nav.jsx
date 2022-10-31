@@ -32,9 +32,7 @@ export default function Nav(){
           </li>
 
           <li className="nav__item">
-            <Link to="/login">
-              <a className="nav__link">About</a>
-            </Link>
+              <a href="#about" className="nav__link">About</a>
           </li>
 
           <li className="nav__item">

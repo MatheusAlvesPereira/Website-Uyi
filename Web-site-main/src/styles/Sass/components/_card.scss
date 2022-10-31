@@ -1,7 +1,7 @@
 #row-price{ 
     margin-top: 10em;
     margin-left: 10em;
-    height: 20em;
+    height: 15em;
     width: 35em;
 }
 
@@ -10,12 +10,23 @@
     display: block;
 }
 
+.card__text{
+    color: #003671;
+    margin-left: 10em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+}
+
 
 @media only screen and (min-width:1200px){
 
     .container-price{
-        margin-top: 10em;
-        margin-left: 8em;
+        margin-top: 1em;
+        margin-left: 7em;
     }
 
     #row-price{
