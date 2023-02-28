@@ -22,7 +22,9 @@ export default function Nav(){
         <ul className="nav__list">
 
           <li className="nav__item">
+            <Link to="/">
               <a href="#card__price" className="nav__link">Plans</a>
+            </Link>
           </li>
 
           <li className="nav__item">
@@ -32,7 +34,9 @@ export default function Nav(){
           </li>
 
           <li className="nav__item">
+            <Link to="/">
               <a href="#about" className="nav__link">About</a>
+            </Link>
           </li>
 
           <li className="nav__item">
