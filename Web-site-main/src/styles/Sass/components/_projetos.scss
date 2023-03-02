@@ -21,7 +21,7 @@
 
             .project__img{
                 width: 25em;
-                animation: project 20s forwards;
+                animation: project 1s ease-in;
             }
 
             .project__body{
@@ -33,11 +33,11 @@
 
     @keyframes project {
         from{
-            clip-path: circle(50% at 50% 50%);
+            transform: translateX(300px);
         }
 
         to{
-            clip-path: circle(70.7% at 50% 50%);
+            transform: translateX(0);
         }
     }
 }
