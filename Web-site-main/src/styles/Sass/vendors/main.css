@@ -5,7 +5,7 @@
 #row-price {
   margin-top: 10em;
   margin-left: 10em;
-  height: 20em;
+  height: 15em;
   width: 35em;
 }
 
@@ -14,10 +14,21 @@
   display: block;
 }
 
+.card__text {
+  color: #003671;
+  margin-left: 10em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+}
+
 @media only screen and (min-width: 1200px) {
   .container-price {
-    margin-top: 10em;
-    margin-left: 8em;
+    margin-top: 1em;
+    margin-left: 7em;
   }
   #row-price {
     margin-top: 0;
@@ -242,6 +253,11 @@ a {
   margin-left: 40em;
 }
 
+.nav__menu {
+  position: fixed;
+  z-index: 1111;
+}
+
 .menu {
   z-index: 111111;
   top: 1em;
@@ -312,6 +328,9 @@ a {
   }
 }
 @media only screen and (min-width: 920px) {
+  .href {
+    margin: 0;
+  }
   .banner__title {
     font-size: 4em;
     margin-left: 1em;
@@ -348,7 +367,7 @@ a {
     margin: 0;
   }
   .nav .nav__list .nav__link {
-    font-size: 0.8em;
+    font-size: 1em;
     font-family: "Open Sans", sans-serif;
     color: white;
     width: 100px;
