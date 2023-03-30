@@ -4,7 +4,7 @@
     top: 0;
     background-color: white;
     z-index: 2;
-    width: 50%;
+    width: 100%;
     height: 100vh;
     text-transform: uppercase;
     display: none;
@@ -20,7 +20,7 @@
             color: rgb(0, 0, 0);
             font-size: 1em;
             display: block;
-            padding: .75em 2em;
+            padding: .75em 2.5em;
 
             &:hover{
                 color: whitesmoke;
@@ -175,8 +175,12 @@
         display: none;
     }
 
+    #contact{
+        padding-left: 2.5em;
+    }
+
     .nav{
-        margin-left: 750px;
+        margin-left: 500px;
         position: unset;
         display: block;
         width: 579px;
@@ -186,11 +190,10 @@
     
         .nav__list{
             display: flex;
-            margin: 0;
+            margin-left: 0;
 
             .nav__item{
                 width: auto;
-                margin: 0;
             }
 
             .nav__link{

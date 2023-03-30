@@ -23,7 +23,7 @@ export default function Nav(){
 
           <li className="nav__item">
             <Link to="/">
-              <a href="#card__price" className="nav__link">Plans</a>
+              <a href="#card__price" className="nav__link">Planos</a>
             </Link>
           </li>
 
@@ -35,19 +35,19 @@ export default function Nav(){
 
           <li className="nav__item">
             <Link to="/">
-              <a href="#about" className="nav__link">About</a>
+              <a href="#about" className="nav__link">Sobre</a>
             </Link>
           </li>
 
           <li className="nav__item">
             <Link to="/Register">
-              <a className="nav__link">Sign-In</a>
+              <a className="nav__link">Cadastrar</a>
             </Link>
           </li>
 
-          <li className="nav__item">
-            <Link to="/login">
-              <a className="nav__link">Contact</a>
+          <li className="nav__item" id="contact">
+            <Link to="/Contact">
+              <a className="nav__link">Contato</a>
             </Link>
           </li>
         </ul>
